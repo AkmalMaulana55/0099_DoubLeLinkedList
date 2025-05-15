@@ -142,5 +142,13 @@ public:
             return;
         }
         
+        Node *currentNode = START;
+        int i = 0;
+        while (currentNode->next != NULL)
+        {
+            currentNode = currentNode->next;
+            i++;
+        }
+        
     }
 };
